@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="chatroom" type="user1" name="user1" output = "screen" launch-prefix="gnome-terminal --command" ></node>
+  <node pkg="chatroom" type="user2" name="user2" output = "screen" launch-prefix="gnome-terminal --command" ></node>
+  <node pkg="chatroom" type="user3" name="user3" output = "screen" launch-prefix="gnome-terminal --command" ></node>
+</launch>
